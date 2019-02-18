@@ -13,7 +13,6 @@ An augmented reality battle game integrated with Watson SDK for AI capabilities
 
 
 ## Steps to create the game
-
 1. Create a new project in Unity
 
 ### Set up your project for Vuforia
