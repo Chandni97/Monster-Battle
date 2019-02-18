@@ -66,9 +66,9 @@ An augmented reality battle game integrated with Watson SDK for AI capabilities
 1. Once chosen you cannot replace the active monster until it's destroyed. 
 1. In your turn you have the following options
   1. You can perform a summoning ritual which summons either. **"draw"**
-   1. monster - who will do your bidding and decide to either 
+    1. monster - who will do your bidding and decide to either 
       1. release the new monster **"discard"**
       1. recruit him for your monster army. **"move to number x"**
-   1. energy - that will power up your monster
+    1. energy - that will power up your monster
   1. You can power up any monster if you have an energy (the attack points will be highligted in red) **"add energy to active/number x"**
   1. You can attack the enemy's monster only if your active monster is powered up. **"strike"**
