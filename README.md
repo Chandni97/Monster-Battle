@@ -53,3 +53,22 @@ An augmented reality battle game integrated with Watson SDK for AI capabilities
 ### TO DO
 1. Integrate IBM Watson Assistant for help with the game.
 1. Allow player 1 and 2 to input an unique number to add it to the pubnub channels so that multiple players can play using the same pubunb account.
+
+
+## Rules of the Game
+
+1. Player 1 has to start the game before Player 2
+1. Once both the players start the game, each of them gets 5 monsters assigned which are placed on the bench. 
+1. Every monster has hit points(green) and attack points(black)
+1. The number of stars in the game represents the number of energies you have (for an attack you need an energy).
+1. Its a turn based game and the green bench represents that player's turn.
+1. In the beginning both players have to choose an active monster who will face off against the enemy's monster. - **"number x active"**
+1. Once chosen you cannot replace the active monster until it's destroyed. 
+1. In your turn you have the following options
+  1. You can perform a summoning ritual which summons either. **"draw"**
+    1. monster - who will do your bidding and decide to either 
+      1. release the new monster **"discard"**
+      1. recruit him for your monster army. **"move to number x"**
+    1. energy - that will power up your monster
+  1. You can power up any monster if you have an energy (the attack points will be highligted in red) **"add energy to active/number x"**
+  1. You can attack the enemy's monster only if your active monster is powered up. **"strike"**
