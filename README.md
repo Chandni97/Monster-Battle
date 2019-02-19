@@ -49,11 +49,6 @@ An augmented reality battle game integrated with Watson SDK for AI capabilities
 
 ### Click on run, point the camera at the image and enjoy the game.
 
-### TO DO
-1. Integrate IBM Watson Assistant for help with the game.
-1. Allow player 1 and 2 to input an unique number to add it to the pubnub channels so that multiple players can play using the same pubunb account.
-
-
 ## Rules of the Game
 
 1. Player 1 has to start the game before Player 2
@@ -71,3 +66,9 @@ An augmented reality battle game integrated with Watson SDK for AI capabilities
       1. Energy - that will power up your monster
   1. You can power up any monster if you have an energy (the attack points will be highligted in red) **"add energy to active/number x"**
   1. You can attack the enemy's monster only if your active monster is powered up. **"strike"**
+  
+  
+  ### TO DO
+1. Integrate IBM Watson Assistant for help with the game.
+1. Allow player 1 and 2 to input an unique number to add it to the pubnub channels so that multiple players can play using the same pubunb account.
+
