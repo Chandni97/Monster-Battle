@@ -8,7 +8,7 @@ An augmented reality battle game integrated with Watson SDK for AI capabilities
 1. Sign up for a [Vuforia account](https://developer.vuforia.com/vui/auth/register)
 1. Sign up for a [PubNub account](https://dashboard.pubnub.com/signup)
 1. Install [Unity 2018.3.3](https://unity3d.com/get-unity/download/archive)
-1. Download the Assets and Project Settings Folder from [here]()
+1. Download the Assets and Project Settings Folder from [here](https://ibm.box.com/v/dgc-assests)
 1. Print the image from the folder.
 
 
