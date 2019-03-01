@@ -1,6 +1,8 @@
 # Monster-Battle
 An augmented reality battle game integrated with Watson SDK for AI capabilities
 
+[![Monster Battle](https://img.youtube.com/vi/CPiCERoeLnE/0.jpg)](https://www.youtube.com/watch?v=CPiCERoeLnE)
+
 
 ## Getting started 
 
