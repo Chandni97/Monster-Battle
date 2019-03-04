@@ -21,10 +21,10 @@ An augmented reality battle game integrated with Watson SDK for AI capabilities
 1. Login to the Vuforia account 
 1. Navigate to License Manager and create a new development key. You will use this key later on to develop the application
 1. To activate Vuforia in your unity project, access the player settings from Edit > Project Settings, then select the Player category, and select the tab for the mobile device you are building to. Under the XR Settings panel, enable the Vuforia Augmented Reality Support property.
-1. Navigate to Target Manager and create a new database for unity editor.
+1. Navigate to Target Manager on Vuforia and create a new database for unity editor.
 1. Click on the database created.
 1. Click on Add Target. Set the type to single image, select the image from the folder you downloaded from box, set the width, name and click add.
-1. Click on Download Database and you will import the downloaded package later on.
+1. Select the Click on Download Database and you will import the downloaded package later on.
 
 ### Create the speech to text service
 1. Login to the IBM cloud account
@@ -39,15 +39,19 @@ An augmented reality battle game integrated with Watson SDK for AI capabilities
 1. Take note of the publish and subscribe keys.
 
 ### Set up the unity project to work with different services created above.
-1. Copy and replace the Asset and Project Settings Folder that you downloaded earlier. 
+1. Copy and replace the Asset and Project Settings Folder that you downloaded earlier in the Project Folder where the game is saved.
+1. Wait for unity to update the Assets.
+1. To download additional and required vuforia packages, navigate to Game Object> Vuforia> AR camera. This will install the required packages and then delete the AR camera that you just imported.
 1. Double click on the image package that you downloaded from vuforia to import it in the project.
 1. Open the Inspector Window by navigating to Window > General > Inspector (Shortcut - CTRL+3).
 1. Open the Project Heirarchy by navigating to Window > General > Heirarchy (Shortcut - CTRL+4).
 1. Select AR Camera, click on open vuforia engine configuration and paste the vuforia license key. Make sure the database that you created in vuforia is added under databases.
-1. Select Image Target from the Hierarchy.
-1. Under Image Target Behaviour, select your image target.
+1. Select Image Target from the Hierarchy. Make sure the scale is set to 7.91 for x,y and z
+1. Under Image Target Behaviour, select your database and image target.
 1. In the inspector window, scroll down to the Main 2 script and paste the pubnub publish key and pubnub subscribe key in the text box for pubnub_pub and pubnub_sub respectively.
 1. Paste the speect to text api key in the Example Streaming Script.
+
+Open the main2 script from the Assets/Resources folder, change playerNumber to 1 and build the project for player 1 and set playerNumber to 2 and build the project for player 2
 
 ### Click on run, point the camera at the image and enjoy the game.
 
